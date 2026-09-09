@@ -15,7 +15,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                bat 'py app.py 10 20'
+                bat 'C:\\Users\\saaiJ\\AppData\\Local\\Programs\\Python\\Launcher\\py.exe app.py 10 20'
             }
         }
 
